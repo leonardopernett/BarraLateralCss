@@ -1,0 +1,60 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+
+#sliderbar{
+  
+    position:fixed;
+    width: 200px;
+    height: 100vh;
+    background: #151719;
+    left:-200px;
+    transition: all ease .4s;
+}
+
+
+#sliderbar.active {
+
+    left:0;
+    transition: all ease .4s;
+}
+
+#sliderbar ul li {
+
+    color:#fff;
+    text-align: center;
+    padding: 15px 10px;
+    cursor:pointer;
+
+}
+
+#sliderbar ul li img {
+
+    width: 100px;
+    border-radius: 50%;
+    display:block;
+    margin: 0 auto;
+}
+
+.toggle-btn{
+
+    position: absolute;
+    left:230px;
+    top:10px;
+    
+    cursor :pointer;
+    
+}
+
+.toggle-btn span {
+
+    width: 40px;
+    display:block;
+    text-align: center;
+    font-size:25px;
+    border:1px solid #000;
+    border-radius: 2px;
+    padding: 5px ;
+}
